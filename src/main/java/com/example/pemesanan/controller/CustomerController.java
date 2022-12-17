@@ -43,9 +43,9 @@ public class CustomerController {
 	public String delCustomer(@PathVariable String idCustomer) {
 		return customerService.delCustomer(idCustomer);
 	}
-	
 	@PostMapping(value="{email}")
 	public List<Customer> getCustomerByemail(@PathVariable String email){
 		return customerService.getCustomerByEmail(email);
 	}
 }
+
