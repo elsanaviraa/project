@@ -48,7 +48,4 @@ public class CustomerController {
 	public List<Customer> getCustomerByemail(@PathVariable String email){
 		return customerService.getCustomerByEmail(email);
 	}
-	
-	
-	
 }
